@@ -1,4 +1,4 @@
-# Flower Classification Android App
+# Flower Classification
 
 ## Overview
 
