@@ -44,19 +44,18 @@ android {
 
 dependencies {
 
-    implementation("org.tensorflow:tensorflow-lite-gpu:2.3.0")
-    implementation("org.tensorflow:tensorflow-lite-support:0.1.0")
-    implementation("org.tensorflow:tensorflow-lite-metadata:0.1.0-rc2")
+    implementation(libs.tensorflow.lite.gpu)
+    implementation(libs.tensorflow.lite.support)
+    implementation(libs.tensorflow.lite.metadata)
 
-    implementation("androidx.compose.material:material-icons-extended")
-
-    implementation("com.google.accompanist:accompanist-permissions:0.31.6-rc")
+    implementation(libs.accompanist.permissions)
 
     implementation(libs.androidx.camera.camera2)
     implementation(libs.androidx.camera.lifecycle)
     implementation(libs.androidx.camera.view)
     implementation(libs.androidx.camera.extensions)
 
+    implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
